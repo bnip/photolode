@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58F4994422234950007DA5DD /* photolodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F4994322234950007DA5DD /* photolodeTests.swift */; };
+		58F4994C22234977007DA5DD /* PhotoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F4994B22234977007DA5DD /* PhotoViewControllerTests.swift */; };
 		71029C282000236D000F90EB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71029C272000236D000F90EB /* Helpers.swift */; };
 		716D9BDD20001FB8001C9403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D9BDC20001FB8001C9403 /* AppDelegate.swift */; };
 		716D9BDF20001FB8001C9403 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D9BDE20001FB8001C9403 /* PhotoViewController.swift */; };
@@ -14,14 +16,11 @@
 		716D9BE420001FB8001C9403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716D9BE320001FB8001C9403 /* Assets.xcassets */; };
 		716D9BE720001FB8001C9403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716D9BE520001FB8001C9403 /* LaunchScreen.storyboard */; };
 		716D9BFF2000202A001C9403 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D9BFE2000202A001C9403 /* PhotoCell.swift */; };
-		719EA01D2006CD82006BC6E2 /* photolodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EA01C2006CD82006BC6E2 /* photolodeTests.swift */; };
-		719EA0252006CDA6006BC6E2 /* PhotoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EA0242006CDA6006BC6E2 /* PhotoViewControllerTests.swift */; };
 		719EA0272006D4EF006BC6E2 /* DownloadClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EA0262006D4EF006BC6E2 /* DownloadClient.swift */; };
-		719EA0292006D59D006BC6E2 /* DownloadClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EA0282006D59D006BC6E2 /* DownloadClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		719EA01F2006CD82006BC6E2 /* PBXContainerItemProxy */ = {
+		58F4994622234950007DA5DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 716D9BD120001FB8001C9403 /* Project object */;
 			proxyType = 1;
@@ -31,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58F4994122234950007DA5DD /* photolodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photolodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F4994322234950007DA5DD /* photolodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photolodeTests.swift; sourceTree = "<group>"; };
+		58F4994522234950007DA5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F4994B22234977007DA5DD /* PhotoViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewControllerTests.swift; sourceTree = "<group>"; };
 		71029C272000236D000F90EB /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		716D9BD920001FB8001C9403 /* photolode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photolode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716D9BDC20001FB8001C9403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,23 +43,18 @@
 		716D9BE620001FB8001C9403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716D9BE820001FB8001C9403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716D9BFE2000202A001C9403 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
-		719EA01A2006CD82006BC6E2 /* photolodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photolodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		719EA01C2006CD82006BC6E2 /* photolodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photolodeTests.swift; sourceTree = "<group>"; };
-		719EA01E2006CD82006BC6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		719EA0242006CDA6006BC6E2 /* PhotoViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewControllerTests.swift; sourceTree = "<group>"; };
 		719EA0262006D4EF006BC6E2 /* DownloadClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadClient.swift; sourceTree = "<group>"; };
-		719EA0282006D59D006BC6E2 /* DownloadClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		716D9BD620001FB8001C9403 /* Frameworks */ = {
+		58F4993E22234950007DA5DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		719EA0172006CD82006BC6E2 /* Frameworks */ = {
+		716D9BD620001FB8001C9403 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,6 +64,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58F4994222234950007DA5DD /* photolodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				58F4994322234950007DA5DD /* photolodeTests.swift */,
+				58F4994B22234977007DA5DD /* PhotoViewControllerTests.swift */,
+				58F4994522234950007DA5DD /* Info.plist */,
+			);
+			path = photolodeTests;
+			sourceTree = "<group>";
+		};
 		71029C2620002361000F90EB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				716D9BDB20001FB8001C9403 /* photolode */,
-				719EA01B2006CD82006BC6E2 /* photolodeTests */,
+				58F4994222234950007DA5DD /* photolodeTests */,
 				716D9BDA20001FB8001C9403 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				716D9BD920001FB8001C9403 /* photolode.app */,
-				719EA01A2006CD82006BC6E2 /* photolodeTests.xctest */,
+				58F4994122234950007DA5DD /* photolodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,20 +132,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		719EA01B2006CD82006BC6E2 /* photolodeTests */ = {
-			isa = PBXGroup;
-			children = (
-				719EA01C2006CD82006BC6E2 /* photolodeTests.swift */,
-				719EA01E2006CD82006BC6E2 /* Info.plist */,
-				719EA0242006CDA6006BC6E2 /* PhotoViewControllerTests.swift */,
-				719EA0282006D59D006BC6E2 /* DownloadClientTests.swift */,
-			);
-			path = photolodeTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		58F4994022234950007DA5DD /* photolodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F4994A22234950007DA5DD /* Build configuration list for PBXNativeTarget "photolodeTests" */;
+			buildPhases = (
+				58F4993D22234950007DA5DD /* Sources */,
+				58F4993E22234950007DA5DD /* Frameworks */,
+				58F4993F22234950007DA5DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F4994722234950007DA5DD /* PBXTargetDependency */,
+			);
+			name = photolodeTests;
+			productName = photolodeTests;
+			productReference = 58F4994122234950007DA5DD /* photolodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		716D9BD820001FB8001C9403 /* photolode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 716D9BF620001FB8001C9403 /* Build configuration list for PBXNativeTarget "photolode" */;
@@ -155,42 +170,24 @@
 			productReference = 716D9BD920001FB8001C9403 /* photolode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		719EA0192006CD82006BC6E2 /* photolodeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 719EA0212006CD82006BC6E2 /* Build configuration list for PBXNativeTarget "photolodeTests" */;
-			buildPhases = (
-				719EA0162006CD82006BC6E2 /* Sources */,
-				719EA0172006CD82006BC6E2 /* Frameworks */,
-				719EA0182006CD82006BC6E2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				719EA0202006CD82006BC6E2 /* PBXTargetDependency */,
-			);
-			name = photolodeTests;
-			productName = photolodeTests;
-			productReference = 719EA01A2006CD82006BC6E2 /* photolodeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		716D9BD120001FB8001C9403 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Caleb Stultz";
 				TargetAttributes = {
+					58F4994022234950007DA5DD = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 716D9BD820001FB8001C9403;
+					};
 					716D9BD820001FB8001C9403 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					719EA0192006CD82006BC6E2 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 716D9BD820001FB8001C9403;
 					};
 				};
 			};
@@ -208,12 +205,19 @@
 			projectRoot = "";
 			targets = (
 				716D9BD820001FB8001C9403 /* photolode */,
-				719EA0192006CD82006BC6E2 /* photolodeTests */,
+				58F4994022234950007DA5DD /* photolodeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		58F4993F22234950007DA5DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		716D9BD720001FB8001C9403 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,16 +228,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		719EA0182006CD82006BC6E2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		58F4993D22234950007DA5DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F4994422234950007DA5DD /* photolodeTests.swift in Sources */,
+				58F4994C22234977007DA5DD /* PhotoViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		716D9BD520001FB8001C9403 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,23 +252,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		719EA0162006CD82006BC6E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				719EA01D2006CD82006BC6E2 /* photolodeTests.swift in Sources */,
-				719EA0292006D59D006BC6E2 /* DownloadClientTests.swift in Sources */,
-				719EA0252006CDA6006BC6E2 /* PhotoViewControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		719EA0202006CD82006BC6E2 /* PBXTargetDependency */ = {
+		58F4994722234950007DA5DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 716D9BD820001FB8001C9403 /* photolode */;
-			targetProxy = 719EA01F2006CD82006BC6E2 /* PBXContainerItemProxy */;
+			targetProxy = 58F4994622234950007DA5DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -286,6 +282,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		58F4994822234950007DA5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K73L6BP37;
+				INFOPLIST_FILE = photolodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryannip.photolodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photolode.app/photolode";
+			};
+			name = Debug;
+		};
+		58F4994922234950007DA5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K73L6BP37;
+				INFOPLIST_FILE = photolodeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryannip.photolodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photolode.app/photolode";
+			};
+			name = Release;
+		};
 		716D9BF420001FB8001C9403 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -423,41 +462,18 @@
 			};
 			name = Release;
 		};
-		719EA0222006CD82006BC6E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HLCDLFXF5Y;
-				INFOPLIST_FILE = photolodeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stultzapps.photolodeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photolode.app/photolode";
-			};
-			name = Debug;
-		};
-		719EA0232006CD82006BC6E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HLCDLFXF5Y;
-				INFOPLIST_FILE = photolodeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stultzapps.photolodeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photolode.app/photolode";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		58F4994A22234950007DA5DD /* Build configuration list for PBXNativeTarget "photolodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F4994822234950007DA5DD /* Debug */,
+				58F4994922234950007DA5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		716D9BD420001FB8001C9403 /* Build configuration list for PBXProject "photolode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -472,15 +488,6 @@
 			buildConfigurations = (
 				716D9BF720001FB8001C9403 /* Debug */,
 				716D9BF820001FB8001C9403 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		719EA0212006CD82006BC6E2 /* Build configuration list for PBXNativeTarget "photolodeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				719EA0222006CD82006BC6E2 /* Debug */,
-				719EA0232006CD82006BC6E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
