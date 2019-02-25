@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07ED064322242AA60071826F /* DownloadClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED064222242AA60071826F /* DownloadClientTests.swift */; };
 		58F4994422234950007DA5DD /* photolodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F4994322234950007DA5DD /* photolodeTests.swift */; };
 		58F4994C22234977007DA5DD /* PhotoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F4994B22234977007DA5DD /* PhotoViewControllerTests.swift */; };
 		71029C282000236D000F90EB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71029C272000236D000F90EB /* Helpers.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07ED064222242AA60071826F /* DownloadClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadClientTests.swift; sourceTree = "<group>"; };
 		58F4994122234950007DA5DD /* photolodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photolodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F4994322234950007DA5DD /* photolodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photolodeTests.swift; sourceTree = "<group>"; };
 		58F4994522234950007DA5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				58F4994322234950007DA5DD /* photolodeTests.swift */,
 				58F4994B22234977007DA5DD /* PhotoViewControllerTests.swift */,
 				58F4994522234950007DA5DD /* Info.plist */,
+				07ED064222242AA60071826F /* DownloadClientTests.swift */,
 			);
 			path = photolodeTests;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58F4994422234950007DA5DD /* photolodeTests.swift in Sources */,
+				07ED064322242AA60071826F /* DownloadClientTests.swift in Sources */,
 				58F4994C22234977007DA5DD /* PhotoViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,7 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HLCDLFXF5Y;
+				DEVELOPMENT_TEAM = 5K73L6BP37;
 				INFOPLIST_FILE = photolode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stultzapps.photolode;
@@ -452,7 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HLCDLFXF5Y;
+				DEVELOPMENT_TEAM = 5K73L6BP37;
 				INFOPLIST_FILE = photolode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stultzapps.photolode;

@@ -41,6 +41,6 @@ class PhotoViewControllerTests: XCTestCase {
                 XCTAssertEqual(image.imageOrientation, expectedImageOrientaion)
             }
         }.resume()
-        waitForExpectations(timeout: 8.0, handler: nil)
+        waitForExpectations(timeout: 60.0, handler: nil)
     }
 }
