@@ -23,7 +23,7 @@ class DownloadClient {
     }
     
     func terribleFunctionYouWouldNeverWrite() {
-        let totalValue = 1000000
+        let totalValue = 10000
         var currentValue = 0
         for i in 1...totalValue {
             currentValue = i

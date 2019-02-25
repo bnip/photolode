@@ -39,6 +39,12 @@ class DownloadClientTests: XCTestCase {
         let urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: true)
         XCTAssertEqual(urlComponents?.path, "/photos")
     }
+    
+    func testTerribleFunction_Performance() {
+        measure {
+            sut.terribleFunctionYouWouldNeverWrite()
+        }
+    }
 }
 
 extension DownloadClientTests {
